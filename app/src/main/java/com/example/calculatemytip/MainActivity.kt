@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         var tip = tipPercentage*cost
-
         if(binding.roundupSwitch.isChecked){
             tip = kotlin.math.ceil(tip)
         }
